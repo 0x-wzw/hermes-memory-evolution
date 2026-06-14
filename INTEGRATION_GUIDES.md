@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Comprehensive integration guides for connecting the OpenClaw memory evolution system with external platforms including Obsidian, namespace systems, and other knowledge management tools. These integrations enable seamless data flow while maintaining the advanced compression and optimization features of the AAAK system.
+Comprehensive integration guides for connecting the Hermes memory evolution system with external platforms including Obsidian, namespace systems, and other knowledge management tools. These integrations enable seamless data flow while maintaining the advanced compression and optimization features of the AAAK system.
 
 ## 1. Obsidian Integration
 
@@ -10,16 +10,16 @@ Comprehensive integration guides for connecting the OpenClaw memory evolution sy
 
 **Prerequisites**:
 - Obsidian vault with API access
-- OpenClaw memory system running
+- Hermes memory system running
 - Python 3.7+ with required dependencies
 
 **Installation**:
 ```bash
 # Install Obsidian integration package
-pip install openclaw-obsidian-integration
+pip install hermes-obsidian-integration
 
 # Configure connection
-openclaw-obsidian configure --vault-path "/path/to/vault" 
+hermes-obsidian configure --vault-path "/path/to/vault" 
                            --memory-store "memory_store.json"
                            --sync-interval 300
 ```
@@ -357,7 +357,7 @@ class SemanticVersionControl:
 
 ```python
 class HierarchicalNamespace:
-    def __init__(self, root_namespace: str = "openclaw"):
+    def __init__(self, root_namespace: str = "hermes"):
         self.root_namespace = root_namespace
         self.namespace_tree = {}
         self.resolution_cache = {}

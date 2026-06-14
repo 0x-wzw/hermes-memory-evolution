@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-Comprehensive performance analysis of the OpenClaw memory evolution system, AAAK compression algorithms, and multi-agent memory sharing capabilities based on production data and controlled benchmarks.
+Comprehensive performance analysis of the Hermes memory evolution system, AAAK compression algorithms, and multi-agent memory sharing capabilities based on production data and controlled benchmarks.
 
 ## 1. AAAK Compression System Benchmarks
 

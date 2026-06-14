@@ -962,7 +962,7 @@ Memory Overhead: 15% of embedding storage
 Semantic Search Improvement: 35% better results
 ```
 
-## 6. Integration with OpenClaw Memory System
+## 6. Integration with Hermes Memory System
 
 ### 6.1 Memory Store Integration
 

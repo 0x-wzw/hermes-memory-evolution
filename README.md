@@ -1,4 +1,4 @@
-# OpenClaw Memory Evolution
+# Hermes Memory Evolution
 
 A self-improving memory system with access pattern tracking, time-based relevance decay, and relationship inference for AI agents.
 
@@ -15,8 +15,8 @@ This system implements a background memory evolution process that makes agent me
 
 ```bash
 # Clone the repository
-git clone https://github.com/0x-wzw/openclaw-memory-evolution.git
-cd openclaw-memory-evolution
+git clone https://github.com/0x-wzw/hermes-memory-evolution.git
+cd hermes-memory-evolution
 
 # No external dependencies required (Python 3.7+)
 python -m test_evolution  # Run tests to verify
@@ -272,11 +272,11 @@ Tests cover:
                     └─────────────────┘
 ```
 
-## Integration with OpenClaw
+## Integration with Hermes
 
-This module is designed to integrate with the OpenClaw agent ecosystem:
+This module is designed to integrate with the Hermes agent ecosystem:
 
-1. **Memory Persistence**: JSON-based storage compatible with OpenClaw memory format
+1. **Memory Persistence**: JSON-based storage compatible with Hermes memory format
 2. **Heartbeat Protocol**: Status reporting via heartbeat.json
 3. **Background Processing**: Runs as daemon or scheduled job
 4. **Stats Export**: Provides metrics for monitoring dashboards
